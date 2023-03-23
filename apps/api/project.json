@@ -3,7 +3,6 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/api/src",
   "projectType": "application",
-  "root": "apps/store",
   "targets": {
     "build": {
       "executor": "@nrwl/webpack:webpack",
@@ -61,5 +60,6 @@
       }
     }
   },
-  "tags": ["scope:api", "type:app"]
+  "tags": ["scope:api", "type:app"],
+  "implicitDependencies": []
 }
